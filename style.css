@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    font-size: 14px;
+    margin: 0;
+}
+nav{
+    background-image: url(img/header-bg.jpg);
+    background-position-x: center;
+    background-position-y: top;
+}
+nav img{
+    width: 220px;
+    margin-right: 75px;
+}
+nav a{
+    font-size: 14px;
+    color: #FFFFFF;
+    text-decoration: none;
+    vertical-align: middle;
+}
+.search-bar{
+    position: relative;
+}
+nav input{
+    width: 530px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid;
+    background-color: transparent;
+    border-color: aliceblue;
+    padding: 2px 15px 0 38px;
+    line-height: 22px;
+    font-size: 18px;
+    color: #FFFFFF;
+    font-weight: 300;
+}
+nav input:focus-visible{
+    outline: unset;
+}
+nav svg{
+    width: 24px;
+    height: 27px;
+    position: absolute;
+}
+#search-svg{
+    margin: 8px;
+    width: 21px;
+    height: 23px;
+}
+#en{
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border:1px solid;
+    border-color: #FFFFFF;
+    border-radius: 3px;
+    color: #FFFFFF;
+    margin-left: 1px;
+    padding: 6px;
+}
+.navsag{
+    padding: 15px;
+}
+#nav-sag-div{
+    float: right;
+}
+#nav-sag-div a{
+    font-size: 13px;
+}
+#nav-zil{
+    margin-right: 15px;
+}
+
+.navust{
+    vertical-align: middle;
+    padding: 10px 0 10px 0;
+    margin: 0 381.500px 0 381.500px;
+}
+.navust div{
+    display: inline;
+    padding: 7px;
+}
+.navalt{
+    vertical-align: middle;
+    padding: 10px 0 10px 0;
+    margin: 0 381.500px 0 381.500px;
+    height: 50px;
+}
+.navalt a{
+    padding-right: 28px;
+    font-weight: 600;
+    font-size: 14px;
+}
+#button-sube{
+    justify-content: center;
+    border-radius: 7px;
+    background-image: linear-gradient(78deg,#ff7c48 -14%,#fdac00 97%);
+    height: 40px;
+    width: 140px;
+    padding: 11.5px 16px;
+}
+#button-mol{
+    justify-content: center;
+    border-radius: 7px;
+    background-image: linear-gradient(to right,#3fb8f2 0,#73ddfa 100%);
+    height: 40px;
+    width: 110px;
+    padding: 11.5px 16px;
+    margin-left: 10px;
+}
+main{
+    position: relative;
+}
+main button{
+    float: left;
+    background-color: transparent;
+    border: none;
+    margin: 15px 60px;
+}
+main img{
+    width: 1903px;
+    height: 600px;
+}
+#list{
+    position: absolute;
+    left: 16%;
+    width: 1337px;
+}
+#list span{
+    font-size: 11px;
+    color: #384754;
+}
+.dlist{
+    float: left;
+    margin: 15px;
+    width: 180px;
+}
+.dlist svg{
+    margin-right: 15px;
+    margin-top: 5px;
+    float: left;
+    vertical-align: middle;
+}
+.dlist div{
+    float: left;
+    
+    
+}
+#baslik{
+    color: #6d7b86;
+    font-size: 12px;
+}
+#deger{
+    font-weight: 600;
+    color: #384754;
+    font-size: 12px;
+}
