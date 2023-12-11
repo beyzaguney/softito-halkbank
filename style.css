@@ -43,6 +43,10 @@ nav input{
 nav input:focus-visible{
     outline: unset;
 }
+::placeholder{
+    color: rgb(227, 227, 226);
+    font-size: 14px;
+}
 nav svg{
     width: 24px;
     height: 27px;
@@ -168,4 +172,7 @@ main img{
     font-weight: 600;
     color: #384754;
     font-size: 12px;
+}
+#svg{
+    margin-top:15px
 }
